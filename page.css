@@ -40,4 +40,5 @@ main {
 .love {
   color: magenta;
   font-weight: bold;
+  font-family: monospace;
 }
