@@ -22,8 +22,12 @@ nav {
   max-width: 20em;
 }
 
-nav>* {
+nav * {
   display: block;
+}
+
+nav div {
+  margin-bottom: 1em;
 }
 
 main {
