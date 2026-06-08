@@ -36,6 +36,7 @@ main {
   max-width: 40em;
 }
 
+main p:first,
 .first {
   padding-top: 0;
   margin-top: 0;
