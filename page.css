@@ -36,13 +36,7 @@ main {
   max-width: 40em;
 }
 
-.first {
-  padding-top: 0;
+main p:first-of-type {
   margin-top: 0;
-}
-
-.love {
-  color: magenta;
-  font-weight: bold;
-  font-family: monospace;
+  padding-top: 0;
 }
