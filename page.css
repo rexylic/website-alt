@@ -1,3 +1,26 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #e8e8e8;
+    background-color: #1a1a1a;
+  }
+
+  a:link {
+    color: aqua;
+  }
+
+  a:visited {
+    color: #00b0c0;
+  }
+
+  a:hover {
+    color: #00d0e0;
+  }
+
+  a:active {
+    color: #00e5f5;
+  }
+}
+
 *,
 *::before,
 *::after {
