@@ -39,6 +39,9 @@ body {
 }
 
 nav {
+  position: sticky;
+  top: 5rem;
+  align-self: flex-start;
   text-align: right;
   padding: 0;
   padding-right: 1rem;
