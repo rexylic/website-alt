@@ -1,28 +1,11 @@
-@media (prefers-color-scheme: dark) {
-  body {
-    color: #e8e8e8;
-    background-color: #1a1a1a;
-  }
-
-  a:link {
-    color: aqua;
-  }
-
-  a:visited {
-    color: #00b0c0;
-  }
-
-  a:hover {
-    color: #00d0e0;
-  }
-
-  a:active {
-    color: #00e5f5;
-  }
-}
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
 
 :root {
   --margin: 4rem;
+  font-family: "Newsreader", "Merriweather", "Noto Serif", serif;
+  font-size: 14pt;
+  font-optical-sizing: auto;
+  line-height: 1.2;
 }
 
 *,
@@ -80,6 +63,29 @@ main hr {
 
 main .poetry {
   white-space: pre-line;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #e8e8e8;
+    background-color: #1a1a1a;
+  }
+
+  a:link {
+    color: aqua;
+  }
+
+  a:visited {
+    color: #00b0c0;
+  }
+
+  a:hover {
+    color: #00d0e0;
+  }
+
+  a:active {
+    color: #00e5f5;
+  }
 }
 
 @media (max-width: 768px) {
