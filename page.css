@@ -21,6 +21,10 @@
   }
 }
 
+:root {
+  --margin: 4rem;
+}
+
 *,
 *::before,
 *::after {
@@ -31,7 +35,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5rem;
+  margin: var(--margin);
 }
 
 .top {
@@ -40,12 +44,12 @@ body {
 
 nav {
   position: sticky;
-  top: 5rem;
   align-self: flex-start;
   text-align: right;
   padding: 0;
   padding-right: 1rem;
   max-width: 20em;
+  top: var(--margin);
 }
 
 nav * {
@@ -76,4 +80,27 @@ main hr {
 
 main .poetry {
   white-space: pre-line;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --margin: 2rem;
+  }
+
+  .top {
+    display: flow-root;
+  }
+
+  nav {
+    text-align: unset;
+    position: unset;
+    max-width: unset;
+    margin: 0;
+    margin-bottom: var(--margin);
+    padding: 0;
+  }
+
+  main {
+    padding: unset;
+  }
 }
