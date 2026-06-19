@@ -3,9 +3,8 @@
 :root {
   --margin: 4rem;
   font-family: "Newsreader", "Merriweather", "Noto Serif", serif;
-  font-size: 14pt;
   font-optical-sizing: auto;
-  line-height: 1.2;
+  line-height: 1.15;
 }
 
 *,
@@ -55,7 +54,7 @@ main p:first-of-type {
 }
 
 main hr {
-  margin: 2em 0;
+  margin: 1.5em 0;
   border: none;
   border-top: 3px solid currentColor;
   opacity: 0.2;
