@@ -56,7 +56,7 @@ main p:first-of-type {
 main hr {
   margin: 1.5em 0;
   border: none;
-  border-top: 3px solid currentColor;
+  border-top: 2px solid currentColor;
   opacity: 0.2;
 }
 
